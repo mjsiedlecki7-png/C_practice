@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int check(int x, int y, int n);
+
+int main (void)
+{
+//Problem 2: Write a function check (x,y,n) that returns 1 if both x and y fall between 0 and n-1, otherwise return 0
+
+int x = 3;
+int y = 4;
+int n = 5;
+
+if (int check(x,y,z))
+    printf("True");
+else    
+    printf("False");
+
+
+
+
+
+
+
+
+
+}
+
+int check(int x, int y, int n)
+{
+
+if (x >= 0 && y >= 0 && x <= (n-1) && y <= (n-1))
+    return 1;
+else
+    return 0;
+}
